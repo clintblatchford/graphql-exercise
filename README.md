@@ -40,7 +40,7 @@ This will open up `localhost:3000` in your web browser.
     2. getLaunchesByRocketName
     3. getLaunchesByLaunchYear
 
-    Each query makes a get request via to the Space X api (through an extension of RESTDataSource) supplying the appropriate variable name for the type of search requested (mission, rocket, year) along with auser supplied search term. 
+    Each query makes a get request via to the Space X api (through an extension of RESTDataSource) supplying the appropriate variable name for the type of search requested (mission, rocket, year) along with a user supplied search term. 
     Each query essentially operates in the same fashion, the only difference being the variable used for the get request. 
 
     All queries can be found in client/src/DataTable.js
