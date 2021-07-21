@@ -25,7 +25,7 @@ Feel free to use 'yarn install' and 'yarn start' if you prefer
 
 This will open up `localhost:3000` in your web browser.
 
-Some quick notes and information on queries
+# Some quick notes and information on queries
 
 - The React app 
 1. Uses Material UI for quick "out of the box" components
