@@ -34,3 +34,16 @@ Some quick notes
 
 - The Apollo GraphQL server 
 1. Heavily influenced by the Odyssey tutorials
+
+This application contains 3 queries in total
+  - Queries
+    1. getLaunchesByMissionName
+    2. getLaunchesByRocketName
+    3. getLaunchesByLaunchYear
+
+    Each query makes a get request via to the Space X api through and extension of RESTDataSource supplying the appropriate variable name based on the type of search (mission, rocket, year) along with the user supplied search term. Each query essentially
+    operates in the same way, the only difference between them is the variable used in the get request. 
+
+    All queries can be found in client/src/DataTable.js
+    All get requests can be found in server/src/datasources/launch-api.js
+   
